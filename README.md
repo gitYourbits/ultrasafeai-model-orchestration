@@ -18,9 +18,6 @@ orchestrator/
 rag/
   vector_store.py
   reranker.py
-data/
-  sample_reports/
-main.py
 requirements.txt
 README.md
 ```
