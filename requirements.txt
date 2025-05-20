@@ -1,0 +1,8 @@
+langgraph
+openai
+pdfplumber
+pydantic
+chromadb
+sentence-transformers
+requests
+tqdm 
