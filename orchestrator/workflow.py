@@ -68,7 +68,7 @@ def generate_report(state: dict) -> dict:
     return state
 
 def build_workflow():
-    graph = StateGraph(dict)  # ✅ Use dict
+    graph = StateGraph(dict)
     graph.add_node("parse_document", parse_document)
     graph.add_node("retrieve_context", retrieve_context)
     graph.add_node("analyze_text", analyze_text)
